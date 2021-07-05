@@ -1,0 +1,39 @@
+/* styles for the Note App */
+
+.note-container {
+  width: 50%;
+  margin: auto;
+}
+
+.note-form-container {
+  padding: 20px;
+}
+
+.note-form {
+  width: 100%;
+}
+
+.note-form-cancel{
+  float: left;
+}
+
+.note-form-add{
+  float: right;
+}
+
+.notes-entry-container{
+  padding: 20px;
+}
+
+.notes-entry{
+  padding: 20px;
+}
+
+.notes-entry-body{
+  width: 80%;
+  float: left;
+}
+
+.notes-entry-action{
+  float: left;
+}
