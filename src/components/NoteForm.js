@@ -34,15 +34,17 @@ function NoteForm({
     } else {
       //add new mode
       if (text.length > 0) {
-        <div className="note-form-cancel">
-          <button
-            onClick={() => {
-              setText("");
-            }}
-          >
-            Cancel
-          </button>
-        </div>;
+        return (
+          <div className="note-form-cancel">
+            <button
+              onClick={() => {
+                setText("");
+              }}
+            >
+              Cancel
+            </button>
+          </div>
+        );
       } else {
         return "";
       }
